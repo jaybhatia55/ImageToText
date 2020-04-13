@@ -92,48 +92,6 @@ namespace ImageToTextDemo
             
             text1 = JsonConvert.DeserializeObject<OcrResult>(data);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //var visionClient = new ComputerVisionClient(new ApiKeyServiceClientCredentials("6de3a3552a6d468c8e5b9725b9a34ff7"))
-            //{
-            //    Endpoint = "https://westcentralus.api.cognitive.microsoft.com"
-            //};
-
-
-
-
-            ////ImageAnalysis imageAnalysis;
-            ////var features = new VisualFeatureTypes[] { VisualFeatureTypes.Brands, VisualFeatureTypes.Description };
-
-
-            //    text1 = await visionClient.RecognizePrintedTextInStreamAsync(true,file.GetStream(),OcrLanguages.En);
-
-
-
-            
-
             LblResult.Text = "";
 
             //var visionclient = new VisionServiceClient("Subscription Key", "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/recognizeText?Printed" /*"https://westcentralus.api.cognitive.microsoft.com/vision/v1.0"*/);
