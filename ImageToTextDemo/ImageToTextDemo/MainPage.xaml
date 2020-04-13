@@ -16,7 +16,7 @@
                HeightRequest="200" />
         
         <Label x:Name="LblResult"
-               FontSize="10" />
+               FontSize="16" />
     </StackLayout>
 
 </ContentPage>
